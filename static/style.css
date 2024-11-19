@@ -1,0 +1,66 @@
+/* Set the background image for the body */
+body {
+    font-family: Arial, sans-serif;
+    background: url("/static/images/DALL·E\ 2024-11-19\ 20.55.21\ -\ A\ serene\ background\ image\ featuring\ colorful\ flowers\ in\ a\ garden\ setting\,\ slightly\ blurred\ to\ create\ a\ soft\ and\ aesthetic\ backdrop.\ The\ flowers\ includ.webp") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the container with a semi-transparent background */
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #444;
+}
+
+h2.error {
+    color: red;
+}
